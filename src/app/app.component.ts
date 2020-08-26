@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'Your name here';
+
+
+  onClick(): void {
+    this.name = '';
+  }
 }
